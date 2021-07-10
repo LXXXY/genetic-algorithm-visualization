@@ -1,1 +1,5 @@
-document.getElementById("container").innerHTML = "你哈哦啊"
+import Engine from "./engine";
+
+let engine = new Engine();
+
+engine.start();
